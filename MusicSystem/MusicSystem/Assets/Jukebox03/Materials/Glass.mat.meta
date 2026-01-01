@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 30f8d14b15187aa419405a83838d217a
+timeCreated: 1470599332
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 69085
+  packageName: Classic Jukebox #3
+  packageVersion: 1.1
+  assetPath: Assets/Jukebox03/Materials/Glass.mat
+  uploadId: 515301
