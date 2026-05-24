@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class JukeboxTrigger : MonoBehaviour
 {
-    OneTrackPlaylistAudioSourceDiegeticImplementation jukebox;
+    public OneTrackPlaylistAudioSourceDiegeticImplementation jukebox;
 
     public GameObject jukeboxText;
 

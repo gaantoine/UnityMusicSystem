@@ -184,11 +184,11 @@ public class OneTrackPlaylistAudioSourceDiegeticImplementation : MonoBehaviour
 
     public void deactivateJukebox()
     {
-        if (currentTrack.isPlaying)
+        if (currentTrack != null && currentTrack.isPlaying)
         {
             StartCoroutine(fadeAndStop(currentTrack));
         }
-        if (changeOverSound.isPlaying)
+        if (changeOverSound != null && changeOverSound.isPlaying)
         {
             StartCoroutine(fadeAndStop(changeOverSound));
         }

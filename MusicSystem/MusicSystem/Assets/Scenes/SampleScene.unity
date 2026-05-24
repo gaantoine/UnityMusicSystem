@@ -951,7 +951,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: In this area, layers of music are faded in or out depending on your distance
     to the statue at the end.  The different materials indicate the areas where each
-    layer starts are reaches full volume.
+    layer starts and reaches full volume.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
