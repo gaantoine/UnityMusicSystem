@@ -8443,8 +8443,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: Find all 3 golden cubes to escape.  They look like the one on the floor
-    in front of you.  Press R to toggle raycast drawing on/off.  Raycasts are on
-    in this space regardless of whether or not they are being drawn.
+    in front of you.  While playing in Editor, you can press R to toggle raycast
+    drawing on/off.  Raycasts are on in this space regardless of whether or not they
+    are being drawn.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8523,6 +8524,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1652249094}
   m_CullTransparentMesh: 1
+--- !u!1 &1674018439
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1674018441}
+  - component: {fileID: 1674018440}
+  m_Layer: 0
+  m_Name: GameControls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1674018440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674018439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2fd545913a80f44b88533a2c25cae28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1674018441
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674018439}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 20.998293, y: -3.5593805, z: -17.253942}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1682034764
 GameObject:
   m_ObjectHideFlags: 0
@@ -11246,3 +11291,4 @@ SceneRoots:
   - {fileID: 1217666686}
   - {fileID: 1775445192}
   - {fileID: 80545983}
+  - {fileID: 1674018441}
